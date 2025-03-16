@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма збору даних</title>
+    <link rel="stylesheet" href="дсдс.css">
+</head>
+<body>
+    <h1>Форма збору даних</h1>
+    
+    <form id="dataForm">
+        <div class="form-group">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name">
+            <div id="nameError" class="error"></div>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <div id="emailError" class="error"></div>
+        </div>
+        
+        <div>
+            <button type="submit" id="submitBtn">Відправити</button>
+            <button type="button" id="restoreBtn" class="restore">Відновити останні дані</button>
+        </div>
+    </form>
+    
+    <div id="responseContainer" style="margin-top: 20px;"></div>
+    
+    <script src="рррр.js"></script>
+</body>
+</html>
